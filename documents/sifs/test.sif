@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canvas version="1.0" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="5s" bgcolor="0.500000 0.500000 0.500000 1.000000">
+  <name>Synfig Animation 1</name>
+  <meta name="background_first_color" content="0.880000 0.880000 0.880000"/>
+  <meta name="background_second_color" content="0.650000 0.650000 0.650000"/>
+  <meta name="background_size" content="15.000000 15.000000"/>
+  <meta name="grid_color" content="0.623529 0.623529 0.623529"/>
+  <meta name="grid_show" content="0"/>
+  <meta name="grid_size" content="0.250000 0.250000"/>
+  <meta name="grid_snap" content="0"/>
+  <meta name="guide_color" content="0.435294 0.435294 1.000000"/>
+  <meta name="guide_show" content="1"/>
+  <meta name="guide_snap" content="0"/>
+  <meta name="jack_offset" content="0.000000"/>
+  <meta name="onion_skin" content="0"/>
+  <meta name="onion_skin_future" content="0"/>
+  <meta name="onion_skin_past" content="1"/>
+  <keyframe time="0f" active="true"/>
+  <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <animated type="real">
+        <waypoint time="0s" before="constant" after="constant">
+          <real guid="0177D05614D651BA9A15D9B0DC94AB2C" value="1.0000000000"/>
+        </waypoint>
+        <waypoint time="0.95833331s" before="constant" after="constant">
+          <real guid="1E0D00C4B4D1AD486C3496C1193B9707" value="0.0000000000"/>
+        </waypoint>
+        <waypoint time="2s" before="constant" after="constant">
+          <real guid="4DBD35B259A9373D1F2D4465E245A924" value="1.0000000000"/>
+        </waypoint>
+      </animated>
+    </param>
+    <param name="blend_method">
+      <integer value="0" static="true"/>
+    </param>
+    <param name="origin">
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+    <param name="transformation">
+      <composite type="transformation">
+        <offset>
+          <animated type="vector">
+            <waypoint time="0s" before="linear" after="linear">
+              <vector guid="E32C13560E8C77D06DBC0D2FFEA1DCB8">
+                <x>0.0000000000</x>
+                <y>0.0000000000</y>
+              </vector>
+            </waypoint>
+            <waypoint time="0.95833331s" before="linear" after="linear">
+              <vector guid="0241B09368B2522E1F295A597304C723">
+                <x>2.2833333015</x>
+                <y>-0.5500000119</y>
+              </vector>
+            </waypoint>
+            <waypoint time="2s" before="linear" after="linear">
+              <vector guid="5FC229536E1013CA21A841DED1696857">
+                <x>-1.3833334446</x>
+                <y>-1.2000000477</y>
+              </vector>
+            </waypoint>
+          </animated>
+        </offset>
+        <angle>
+          <angle value="0.000000"/>
+        </angle>
+        <skew_angle>
+          <angle value="0.000000"/>
+        </skew_angle>
+        <scale>
+          <vector>
+            <x>1.0000000000</x>
+            <y>1.0000000000</y>
+          </vector>
+        </scale>
+      </composite>
+    </param>
+    <param name="canvas">
+      <canvas>
+        <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="NewSpline029 Region">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="0.9999999907"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.047776</r>
+              <g>0.000262</g>
+              <b>0.000262</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="origin">
+            <vector guid="93795C900B7F5602EDA282D3FE37522A">
+              <x>0.0000000000</x>
+              <y>0.0000000000</y>
+            </vector>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+          <param name="antialias">
+            <bool value="true"/>
+          </param>
+          <param name="feather">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="blurtype">
+            <integer value="1"/>
+          </param>
+          <param name="winding_style">
+            <integer value="0"/>
+          </param>
+          <param name="bline">
+            <bline guid="56908230E9B386079B7AD03088AC3CC1" type="bline_point" loop="true">
+              <entry>
+                <composite type="bline_point">
+                  <point>
+                    <vector>
+                      <x>-2.2666666508</x>
+                      <y>0.7166666389</y>
+                    </vector>
+                  </point>
+                  <width>
+                    <real value="1.0000000000"/>
+                  </width>
+                  <origin>
+                    <real value="0.5000000000"/>
+                  </origin>
+                  <split>
+                    <bool value="false"/>
+                  </split>
+                  <t1>
+                    <radial_composite type="vector">
+                      <radius>
+                        <real value="4.2851488408"/>
+                      </radius>
+                      <theta>
+                        <angle value="70.930801"/>
+                      </theta>
+                    </radial_composite>
+                  </t1>
+                  <t2>
+                    <radial_composite type="vector">
+                      <radius>
+                        <real value="4.2851488408"/>
+                      </radius>
+                      <theta>
+                        <angle value="70.930801"/>
+                      </theta>
+                    </radial_composite>
+                  </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
+                </composite>
+              </entry>
+              <entry>
+                <composite type="bline_point">
+                  <point>
+                    <vector>
+                      <x>-0.6999999881</x>
+                      <y>-0.0166666675</y>
+                    </vector>
+                  </point>
+                  <width>
+                    <real value="1.0000000000"/>
+                  </width>
+                  <origin>
+                    <real value="0.5000000000"/>
+                  </origin>
+                  <split>
+                    <bool value="false"/>
+                  </split>
+                  <t1>
+                    <radial_composite type="vector">
+                      <radius>
+                        <real value="3.1132780759"/>
+                      </radius>
+                      <theta>
+                        <angle value="-150.140991"/>
+                      </theta>
+                    </radial_composite>
+                  </t1>
+                  <t2>
+                    <radial_composite type="vector">
+                      <radius>
+                        <real value="3.1132780759"/>
+                      </radius>
+                      <theta>
+                        <angle value="-150.140991"/>
+                      </theta>
+                    </radial_composite>
+                  </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
+                </composite>
+              </entry>
+            </bline>
+          </param>
+        </layer>
+      </canvas>
+    </param>
+    <param name="time_dilation">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="time_offset">
+      <time value="0s"/>
+    </param>
+    <param name="children_lock">
+      <bool value="false"/>
+    </param>
+    <param name="outline_grow">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range">
+      <bool value="false" static="true"/>
+    </param>
+    <param name="z_range_position">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range_blur">
+      <real value="0.0000000000"/>
+    </param>
+  </layer>
+  <layer type="text" active="true" exclude_from_rendering="false" version="0.2" desc="Text016">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <animated type="real">
+        <waypoint time="0s" before="constant" after="constant">
+          <real guid="F4F153AC67B17749949BAF572C4F9E50" value="0.9999999907"/>
+        </waypoint>
+        <waypoint time="1.20833337s" before="constant" after="constant">
+          <real guid="93DA7B14404DFDE16B6D2E13F68AED03" value="0.0000000000"/>
+        </waypoint>
+        <waypoint time="2.5s" before="constant" after="constant">
+          <real guid="81AA51EFE068D62C4F8D75D4620FDF1C" value="1.0000000000"/>
+        </waypoint>
+      </animated>
+    </param>
+    <param name="blend_method">
+      <integer value="0"/>
+    </param>
+    <param name="text">
+      <string>asdf</string>
+    </param>
+    <param name="color">
+      <color>
+        <r>0.047776</r>
+        <g>0.000262</g>
+        <b>0.000262</b>
+        <a>1.000000</a>
+      </color>
+    </param>
+    <param name="family">
+      <string>Sans Serif</string>
+    </param>
+    <param name="style">
+      <integer value="0"/>
+    </param>
+    <param name="weight">
+      <integer value="400"/>
+    </param>
+    <param name="compress">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="vcompress">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="size">
+      <vector>
+        <x>0.2500000000</x>
+        <y>0.2500000000</y>
+      </vector>
+    </param>
+    <param name="orient">
+      <vector>
+        <x>0.5000000000</x>
+        <y>0.5000000000</y>
+      </vector>
+    </param>
+    <param name="origin">
+      <animated type="vector">
+        <waypoint time="0s" before="linear" after="linear">
+          <vector guid="68456AFCFF483AAB7FAB42EFF7FE4DFA">
+            <x>-1.8333332539</x>
+            <y>1.7500000000</y>
+          </vector>
+        </waypoint>
+        <waypoint time="1s" before="linear" after="linear">
+          <vector guid="55461D7E6BA2B84473DC52EDF44A0E06">
+            <x>1.8999999762</x>
+            <y>0.5666666627</y>
+          </vector>
+        </waypoint>
+        <waypoint time="2.41666675s" before="linear" after="linear">
+          <vector guid="8EA82CBFBCD641BF7DA545C1EBAE1B80">
+            <x>-0.0666667372</x>
+            <y>-1.6166666746</y>
+          </vector>
+        </waypoint>
+      </animated>
+    </param>
+    <param name="use_kerning">
+      <bool value="true"/>
+    </param>
+    <param name="grid_fit">
+      <bool value="false"/>
+    </param>
+    <param name="invert">
+      <bool value="false"/>
+    </param>
+  </layer>
+</canvas>
